@@ -15,8 +15,8 @@ end
 
 def take_a_number(katz_deli, customer)
   katz_deli.push(customer)
-  most_recent_customer = katz_deli.last
-  most_recent_customer_i = katz_deli.length
+  most_recent_customer = katz_deli.last()
+  most_recent_customer_i = katz_deli.length()
   puts "Welcome, #{most_recent_customer}. You are number #{most_recent_customer_i} in line."
 end
 
@@ -24,8 +24,9 @@ def now_serving(line)
   if line.empty?
     puts "There is nobody waiting to be served!"
   else
-    nextInLIne = line.first
+    nextInLIne = line.first()
     puts "Currently serving #{nextInLIne}."
+    line.shift()
   #if array is empty
   #puts "There is nobody waiting to be served!"
   # else
