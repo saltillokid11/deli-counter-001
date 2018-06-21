@@ -15,6 +15,8 @@ end
 
 def take_a_number(katz_deli, customer)
   katz_deli.push(customer)
+  most_recent_customer = katz_deli.last
+  most_recent_customer_i = katz_deli.length + 1
   puts "Welcome, #{next_person}. You are number #{i} in line."
 end
 
