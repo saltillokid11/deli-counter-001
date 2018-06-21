@@ -7,7 +7,6 @@ def line(deli)
   else
     intro = "The line is currently:"
     deli.each.with_index(1) do |queue, i|
-      # intro << " #{i}. #{queue}"
       intro << " #{i}. #{queue}"
     end
     puts intro
