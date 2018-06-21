@@ -14,7 +14,8 @@ def line(deli)
 end
 
 def take_a_number(katz_deli, customer)
-  puts "Welcome, #{customer}. You are number #{i} in line."
+  first_person = katz_deli.first
+  puts "Welcome, #{first_person}. You are number #{i} in line."
 end
 
 def now_serving()
