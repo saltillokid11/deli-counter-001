@@ -24,7 +24,8 @@ def now_serving(line)
   if line.empty?
     puts "There is nobody waiting to be served!"
   else
-    puts "Currently serving #{customer}."
+    nextInLIne = line.first
+    puts "Currently serving #{nextInLIne}."
   #if array is empty
   #puts "There is nobody waiting to be served!"
   # else
