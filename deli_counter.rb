@@ -22,6 +22,7 @@ end
 
 def now_serving()
   puts "next person in line"
+  puts "Currently serving #{customer}."
   #if array is empty
   #puts "There is nobody waiting to be served!"
   # else
