@@ -20,7 +20,7 @@ def take_a_number(katz_deli, customer)
   puts "Welcome, #{most_recent_customer}. You are number #{most_recent_customer_i} in line."
 end
 
-def now_serving(katz_deli)
+def now_serving(line)
   if line.empty?
     puts "There is nobody waiting to be served!"
   else
