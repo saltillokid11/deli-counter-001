@@ -27,6 +27,7 @@ def now_serving()
     nextInLIne = katz_deli.first()
     puts "Currently serving #{nextInLIne}."
     katz_deli.shift()
+  end
   #if array is empty
   #puts "There is nobody waiting to be served!"
   # else
