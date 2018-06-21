@@ -5,11 +5,11 @@ def line(deli)
   if deli = []
     puts "The line is currently empty."
   else
-    intro = "The line is currently:"
+    current_linez = "The line is currently:"
     deli.each.with_index(1) do |queue, i|
-      intro << " #{i}. #{queue}"
+      current_linez << " #{i}. #{queue}"
     end
-    puts intro
+    puts current_linez
   end
 end
 
